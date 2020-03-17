@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
+import img from './assets/lugia.png';
 
 function App(){
-    return <h1>Hello Marcelo 2</h1>
+    return <img width="200" src="{img}" />
 }
 
 export default App;
